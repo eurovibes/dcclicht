@@ -335,13 +335,73 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Beschreibung",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "assemble",
+          "name": "assemble",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacture",
+          "name": "Manufacture",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "mpn",
+          "name": "mpn",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC#",
+          "name": "LCSC#",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "TME#",
+          "name": "TME#",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Digikey#",
+          "name": "Digikey#",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referenz"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
