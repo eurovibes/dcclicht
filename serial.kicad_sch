@@ -2361,15 +2361,15 @@
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 144.78 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "12207140-b0d1-4632-9c02-be83e38d4fd7")
 		(property "Reference" "U303"
-			(at 146.4311 59.69 0)
+			(at 150.114 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +2378,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 146.4311 62.23 0)
+			(at 159.004 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2387,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 146.05 73.66 0)
+			(at 143.51 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2398,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 146.05 75.565 0)
+			(at 143.51 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)

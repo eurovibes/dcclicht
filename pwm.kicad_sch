@@ -1247,12 +1247,6 @@
 		)
 	)
 	(junction
-		(at 53.34 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "047caca5-c149-4b6c-b815-eaae24e70838")
-	)
-	(junction
 		(at 36.83 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1313,12 +1307,6 @@
 		(uuid "3c1bb1f8-739d-4e95-ada4-d5d8de9170df")
 	)
 	(junction
-		(at 53.34 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dd7232f-2d8c-4364-b81c-f105e14b2b0d")
-	)
-	(junction
 		(at 45.72 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1353,6 +1341,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7761a3c8-2cd1-4862-b45b-2a6974dccaa5")
+	)
+	(junction
+		(at 68.58 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d056278-fb8f-417e-af85-107139390080")
 	)
 	(junction
 		(at 88.9 69.85)
@@ -1413,6 +1407,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc744085-1319-421a-8057-e325d0a8e9c9")
+	)
+	(junction
+		(at 68.58 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd5152ee-7fa2-4f84-bcbd-36d2ca9f704e")
 	)
 	(junction
 		(at 53.34 50.8)
@@ -1710,6 +1710,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 74.93) (xy 68.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad4a3ac-bcd4-4d82-a44a-5a05462f6782")
+	)
+	(wire
+		(pts
 			(xy 88.9 156.21) (xy 100.33 156.21)
 		)
 		(stroke
@@ -1907,16 +1917,6 @@
 			(type default)
 		)
 		(uuid "36513c09-2568-4d37-97c1-069c64c59924")
-	)
-	(wire
-		(pts
-			(xy 76.2 62.23) (xy 76.2 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3729756d-89de-4e70-9429-73b406855526")
 	)
 	(wire
 		(pts
@@ -2210,6 +2210,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 62.23) (xy 76.2 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c56abc-34bb-4471-8dd9-6942e48a8106")
+	)
+	(wire
+		(pts
 			(xy 46.99 182.88) (xy 46.99 185.42)
 		)
 		(stroke
@@ -2300,13 +2310,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 148.59) (xy 76.2 158.75)
+			(xy 76.2 161.29) (xy 68.58 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82b63c72-29dd-4b3f-84d8-caad58b3ef65")
+		(uuid "831b611f-0977-4e78-bc87-d202de8d8df4")
 	)
 	(wire
 		(pts
@@ -2357,16 +2367,6 @@
 			(type default)
 		)
 		(uuid "90e86d96-4bd2-4b18-a601-016f24a8105a")
-	)
-	(wire
-		(pts
-			(xy 76.2 158.75) (xy 53.34 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91173a1a-ae69-4b4e-9445-4c26b819acc2")
 	)
 	(wire
 		(pts
@@ -2537,6 +2537,16 @@
 			(type default)
 		)
 		(uuid "acc31ef9-4ec2-43cc-9fcb-d036fdfa34e1")
+	)
+	(wire
+		(pts
+			(xy 76.2 148.59) (xy 76.2 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae012aa9-41b4-40af-b321-ed615b734829")
 	)
 	(wire
 		(pts
@@ -2877,16 +2887,6 @@
 			(type default)
 		)
 		(uuid "ef9761e0-0040-4255-ac28-4957e08c32a7")
-	)
-	(wire
-		(pts
-			(xy 76.2 72.39) (xy 53.34 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "effe66e6-abe2-4627-b6f9-12794e942716")
 	)
 	(wire
 		(pts
@@ -3776,23 +3776,23 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 60.96 35.56 180)
+		(at 38.1 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "23a14f0d-13ec-4aae-a2fc-d3c0a0e141a0")
-		(property "Reference" "F204"
-			(at 55.88 35.56 90)
+		(property "Reference" "F201"
+			(at 33.02 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Polyfuse_Small"
-			(at 58.42 35.56 90)
+		(property "Value" "750mA"
+			(at 35.56 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +3800,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 59.69 30.48 0)
+			(at 36.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +3810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 35.56 0)
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3819,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 60.96 35.56 0)
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +3828,7 @@
 			)
 		)
 		(property "assemble" "y"
-			(at 60.96 35.56 0)
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +3837,7 @@
 			)
 		)
 		(property "LCSC#" "C12557"
-			(at 60.96 35.56 0)
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +3846,7 @@
 			)
 		)
 		(property "Manufacture" "RUILON(Shenzhen Ruilongyuan Elec)"
-			(at 60.96 35.56 0)
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +3855,7 @@
 			)
 		)
 		(property "TME#" ""
-			(at 60.96 35.56 0)
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +3864,7 @@
 			)
 		)
 		(property "mpn" "SMD1812P075TF/24"
-			(at 60.96 35.56 0)
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3881,7 @@
 		(instances
 			(project "dcclicht"
 				(path "/7d050302-7aae-4d39-9460-836c4ed2400d/66a07e1f-b617-4098-8fe2-8865da56eba3"
-					(reference "F204")
+					(reference "F201")
 					(unit 1)
 				)
 			)
@@ -4133,23 +4133,23 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 53.34 121.92 180)
+		(at 45.72 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3b6aea56-9d41-4b2b-8add-1372a3f5f786")
-		(property "Reference" "F207"
-			(at 48.26 121.92 90)
+		(property "Reference" "F206"
+			(at 40.64 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Polyfuse_Small"
-			(at 50.8 121.92 90)
+		(property "Value" "750mA"
+			(at 43.18 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4157,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 52.07 116.84 0)
+			(at 44.45 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4167,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 121.92 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4176,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 53.34 121.92 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +4185,7 @@
 			)
 		)
 		(property "assemble" "y"
-			(at 53.34 121.92 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4194,7 @@
 			)
 		)
 		(property "LCSC#" "C12557"
-			(at 53.34 121.92 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4203,7 @@
 			)
 		)
 		(property "Manufacture" "RUILON(Shenzhen Ruilongyuan Elec)"
-			(at 53.34 121.92 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4212,7 @@
 			)
 		)
 		(property "TME#" ""
-			(at 53.34 121.92 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4221,7 @@
 			)
 		)
 		(property "mpn" "SMD1812P075TF/24"
-			(at 53.34 121.92 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4238,7 @@
 		(instances
 			(project "dcclicht"
 				(path "/7d050302-7aae-4d39-9460-836c4ed2400d/66a07e1f-b617-4098-8fe2-8865da56eba3"
-					(reference "F207")
+					(reference "F206")
 					(unit 1)
 				)
 			)
@@ -6531,23 +6531,23 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 60.96 121.92 180)
+		(at 38.1 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "999174cc-1056-4a87-8f7b-df841c197cff")
-		(property "Reference" "F208"
-			(at 55.88 121.92 90)
+		(property "Reference" "F205"
+			(at 33.02 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Polyfuse_Small"
-			(at 58.42 121.92 90)
+		(property "Value" "750mA"
+			(at 35.56 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +6555,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 59.69 116.84 0)
+			(at 36.83 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +6565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +6574,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 60.96 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6583,7 @@
 			)
 		)
 		(property "assemble" "y"
-			(at 60.96 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +6592,7 @@
 			)
 		)
 		(property "LCSC#" "C12557"
-			(at 60.96 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6601,7 @@
 			)
 		)
 		(property "Manufacture" "RUILON(Shenzhen Ruilongyuan Elec)"
-			(at 60.96 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6610,7 @@
 			)
 		)
 		(property "TME#" ""
-			(at 60.96 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +6619,7 @@
 			)
 		)
 		(property "mpn" "SMD1812P075TF/24"
-			(at 60.96 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +6636,7 @@
 		(instances
 			(project "dcclicht"
 				(path "/7d050302-7aae-4d39-9460-836c4ed2400d/66a07e1f-b617-4098-8fe2-8865da56eba3"
-					(reference "F208")
+					(reference "F205")
 					(unit 1)
 				)
 			)
@@ -7245,23 +7245,23 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 38.1 35.56 180)
+		(at 60.96 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "acdea1e2-33f9-4a99-8565-b57d5839e75a")
-		(property "Reference" "F201"
-			(at 33.02 35.56 90)
+		(property "Reference" "F204"
+			(at 55.88 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Polyfuse_Small"
-			(at 35.56 35.56 90)
+		(property "Value" "750mA"
+			(at 58.42 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,7 +7269,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 36.83 30.48 0)
+			(at 59.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +7279,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 35.56 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +7288,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 38.1 35.56 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,7 +7297,7 @@
 			)
 		)
 		(property "assemble" "y"
-			(at 38.1 35.56 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,7 +7306,7 @@
 			)
 		)
 		(property "LCSC#" "C12557"
-			(at 38.1 35.56 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,7 +7315,7 @@
 			)
 		)
 		(property "Manufacture" "RUILON(Shenzhen Ruilongyuan Elec)"
-			(at 38.1 35.56 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7324,7 +7324,7 @@
 			)
 		)
 		(property "TME#" ""
-			(at 38.1 35.56 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7333,7 +7333,7 @@
 			)
 		)
 		(property "mpn" "SMD1812P075TF/24"
-			(at 38.1 35.56 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7350,7 @@
 		(instances
 			(project "dcclicht"
 				(path "/7d050302-7aae-4d39-9460-836c4ed2400d/66a07e1f-b617-4098-8fe2-8865da56eba3"
-					(reference "F201")
+					(reference "F204")
 					(unit 1)
 				)
 			)
@@ -7479,23 +7479,23 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 45.72 35.56 180)
+		(at 53.34 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b31843d4-fd56-4406-8db7-d9cab20162c3")
-		(property "Reference" "F202"
-			(at 40.64 35.56 90)
+		(property "Reference" "F203"
+			(at 48.26 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Polyfuse_Small"
-			(at 43.18 35.56 90)
+		(property "Value" "750mA"
+			(at 50.8 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,7 +7503,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 44.45 30.48 0)
+			(at 52.07 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +7513,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 35.56 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7522,7 +7522,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 45.72 35.56 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +7531,7 @@
 			)
 		)
 		(property "assemble" "y"
-			(at 45.72 35.56 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,7 +7540,7 @@
 			)
 		)
 		(property "LCSC#" "C12557"
-			(at 45.72 35.56 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +7549,7 @@
 			)
 		)
 		(property "Manufacture" "RUILON(Shenzhen Ruilongyuan Elec)"
-			(at 45.72 35.56 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +7558,7 @@
 			)
 		)
 		(property "TME#" ""
-			(at 45.72 35.56 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +7567,7 @@
 			)
 		)
 		(property "mpn" "SMD1812P075TF/24"
-			(at 45.72 35.56 0)
+			(at 53.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +7584,7 @@
 		(instances
 			(project "dcclicht"
 				(path "/7d050302-7aae-4d39-9460-836c4ed2400d/66a07e1f-b617-4098-8fe2-8865da56eba3"
-					(reference "F202")
+					(reference "F203")
 					(unit 1)
 				)
 			)
@@ -7592,23 +7592,23 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 38.1 121.92 180)
+		(at 60.96 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b62b98cc-b1eb-466d-bf01-992c6230c4ee")
-		(property "Reference" "F205"
-			(at 33.02 121.92 90)
+		(property "Reference" "F208"
+			(at 55.88 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Polyfuse_Small"
-			(at 35.56 121.92 90)
+		(property "Value" "750mA"
+			(at 58.42 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7616,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 36.83 116.84 0)
+			(at 59.69 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +7626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 121.92 0)
+			(at 60.96 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +7635,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 38.1 121.92 0)
+			(at 60.96 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,7 +7644,7 @@
 			)
 		)
 		(property "assemble" "y"
-			(at 38.1 121.92 0)
+			(at 60.96 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +7653,7 @@
 			)
 		)
 		(property "LCSC#" "C12557"
-			(at 38.1 121.92 0)
+			(at 60.96 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +7662,7 @@
 			)
 		)
 		(property "Manufacture" "RUILON(Shenzhen Ruilongyuan Elec)"
-			(at 38.1 121.92 0)
+			(at 60.96 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7671,7 @@
 			)
 		)
 		(property "TME#" ""
-			(at 38.1 121.92 0)
+			(at 60.96 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7680,7 @@
 			)
 		)
 		(property "mpn" "SMD1812P075TF/24"
-			(at 38.1 121.92 0)
+			(at 60.96 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,7 +7697,7 @@
 		(instances
 			(project "dcclicht"
 				(path "/7d050302-7aae-4d39-9460-836c4ed2400d/66a07e1f-b617-4098-8fe2-8865da56eba3"
-					(reference "F205")
+					(reference "F208")
 					(unit 1)
 				)
 			)
@@ -8467,23 +8467,23 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 53.34 35.56 180)
+		(at 45.72 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e2ea0752-580d-4c5a-8d78-f01df578349b")
-		(property "Reference" "F203"
-			(at 48.26 35.56 90)
+		(property "Reference" "F202"
+			(at 40.64 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Polyfuse_Small"
-			(at 50.8 35.56 90)
+		(property "Value" "750mA"
+			(at 43.18 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8491,7 +8491,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 52.07 30.48 0)
+			(at 44.45 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 35.56 0)
+			(at 45.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8510,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 53.34 35.56 0)
+			(at 45.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +8519,7 @@
 			)
 		)
 		(property "assemble" "y"
-			(at 53.34 35.56 0)
+			(at 45.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8528,7 @@
 			)
 		)
 		(property "LCSC#" "C12557"
-			(at 53.34 35.56 0)
+			(at 45.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8537,7 +8537,7 @@
 			)
 		)
 		(property "Manufacture" "RUILON(Shenzhen Ruilongyuan Elec)"
-			(at 53.34 35.56 0)
+			(at 45.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8546,7 +8546,7 @@
 			)
 		)
 		(property "TME#" ""
-			(at 53.34 35.56 0)
+			(at 45.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,7 +8555,7 @@
 			)
 		)
 		(property "mpn" "SMD1812P075TF/24"
-			(at 53.34 35.56 0)
+			(at 45.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,7 +8572,7 @@
 		(instances
 			(project "dcclicht"
 				(path "/7d050302-7aae-4d39-9460-836c4ed2400d/66a07e1f-b617-4098-8fe2-8865da56eba3"
-					(reference "F203")
+					(reference "F202")
 					(unit 1)
 				)
 			)
@@ -8807,23 +8807,23 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 45.72 121.92 180)
+		(at 53.34 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e7fdc5ca-50df-476a-91e3-fe19763ee579")
-		(property "Reference" "F206"
-			(at 40.64 121.92 90)
+		(property "Reference" "F207"
+			(at 48.26 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Polyfuse_Small"
-			(at 43.18 121.92 90)
+		(property "Value" "750mA"
+			(at 50.8 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8831,7 +8831,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 44.45 116.84 0)
+			(at 52.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8841,7 +8841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 121.92 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,7 +8850,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 45.72 121.92 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8859,7 +8859,7 @@
 			)
 		)
 		(property "assemble" "y"
-			(at 45.72 121.92 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8868,7 +8868,7 @@
 			)
 		)
 		(property "LCSC#" "C12557"
-			(at 45.72 121.92 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8877,7 +8877,7 @@
 			)
 		)
 		(property "Manufacture" "RUILON(Shenzhen Ruilongyuan Elec)"
-			(at 45.72 121.92 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8886,7 +8886,7 @@
 			)
 		)
 		(property "TME#" ""
-			(at 45.72 121.92 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8895,7 +8895,7 @@
 			)
 		)
 		(property "mpn" "SMD1812P075TF/24"
-			(at 45.72 121.92 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +8912,7 @@
 		(instances
 			(project "dcclicht"
 				(path "/7d050302-7aae-4d39-9460-836c4ed2400d/66a07e1f-b617-4098-8fe2-8865da56eba3"
-					(reference "F206")
+					(reference "F207")
 					(unit 1)
 				)
 			)
