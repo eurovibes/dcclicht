@@ -13,7 +13,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="dcclicht.svg">
+   sodipodi:docname="dcclicht.svg"
+   inkscape:export-filename="H:\kicad\dcclicht\images\dcclicht.png"
+   inkscape:export-xdpi="155"
+   inkscape:export-ydpi="155">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -44,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
