@@ -5,8 +5,14 @@
 	(uuid "493863b7-ca60-4288-a793-fddf9175a5da")
 	(paper "A4")
 	(title_block
+		(title "DCC Licht")
 		(date "2025-01-22")
 		(rev "v0.1")
+		(company "Eurovibes Benedikt Spranger")
+		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0")
+		(comment 2 "https://ohwr.org/cern_ohl_s_v2.txt")
+		(comment 3 "To view a copy of this license, visit")
+		(comment 4 "This work is licensed under the CERN-OHL-S v2")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_B_Micro"
