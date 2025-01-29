@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="600"
+   viewBox="0 0 211.66667 158.75"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="dcclicht.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="400"
+     inkscape:cy="443.44144"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Lucida Calligraphy';-inkscape-font-specification:'Lucida Calligraphy';stroke-width:0.264583"
+       x="55.082943"
+       y="129.75935"
+       id="text835"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="55.082943"
+         y="129.75935"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">DCC</tspan></text>
+    <g
+       id="g900"
+       transform="matrix(0.26458333,0,0,0.26458333,79.375,21.115643)">
+      <g
+         fill="none"
+         stroke="#000000"
+         stroke-width="5"
+         id="g871">
+        <circle
+           cx="100"
+           cy="100"
+           r="75.592003"
+           id="circle865" />
+        <path
+           d="m 46.548,46.548 106.9,106.9"
+           id="path867" />
+        <path
+           d="m 153.45,46.548 -106.9,106.9"
+           id="path869" />
+      </g>
+      <g
+         fill="none"
+         stroke="#999999"
+         stroke-width="3"
+         id="g881">
+        <path
+           d="M 0,16 V 0 h 16"
+           id="path873" />
+        <path
+           d="M 200,16 V 0 h -16"
+           id="path875" />
+        <path
+           d="m 0,184 v 16 h 16"
+           id="path877" />
+        <path
+           d="m 200,184 v 16 h -16"
+           id="path879" />
+      </g>
+    </g>
+  </g>
+</svg>
