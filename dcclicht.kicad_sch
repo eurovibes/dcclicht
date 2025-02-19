@@ -10289,6 +10289,15 @@
 				(hide yes)
 			)
 		)
+		(property "TME#" "TL2202EEYB"
+			(at 43.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e77971ff-0850-48a6-a544-f36597d40014")
 		)
