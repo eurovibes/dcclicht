@@ -7970,7 +7970,7 @@
 		(uuid "341fae0b-ada3-4b25-9a80-2c0eacf94f86")
 	)
 	(label "CAN_RX"
-		(at 203.2 106.68 0)
+		(at 203.2 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8150,7 +8150,7 @@
 		(uuid "bab99947-1a7c-4ee8-8b77-40f2736b7c9c")
 	)
 	(label "CAN_TX"
-		(at 203.2 104.14 0)
+		(at 203.2 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
