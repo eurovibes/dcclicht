@@ -8069,6 +8069,16 @@
 		)
 		(uuid "7ae24fa1-69d9-4b9e-becf-06a96ad5bdbe")
 	)
+	(label "CAN_H"
+		(at 35.56 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82bff368-9d37-4f33-99ba-eeb08a42122e")
+	)
 	(label "CAN_TX"
 		(at 116.84 125.73 0)
 		(effects
@@ -8108,6 +8118,16 @@
 			(justify left bottom)
 		)
 		(uuid "a7aacb11-971a-44ee-880d-b0430978917b")
+	)
+	(label "CAN_L"
+		(at 35.56 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b217e591-c080-482b-9227-b8ff3891be9d")
 	)
 	(label "SDA"
 		(at 60.96 170.18 0)
