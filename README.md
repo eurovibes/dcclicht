@@ -2,6 +2,7 @@
 <!-- SPDX-License-Identifier: CERN-OHL-S-2.0 -->
 
 [![KiCad CI/CD for DCC Licht](https://github.com/eurovibes/dcclicht/actions/workflows/main.yml/badge.svg)](https://github.com/eurovibes/dcclicht/actions/workflows/main.yml)
+[![Software CI/CD for DCC Licht](https://github.com/eurovibes/dcclicht/actions/workflows/rust.yml/badge.svg)](https://github.com/eurovibes/dcclicht/actions/workflows/rust.yml)
 ![Dcclicht logo](https://github.com/eurovibes/dcclicht/raw/master/images/dcclicht.png "Dcclicht logo")
 
 # Dcclicht - A DCC LED/light control board
