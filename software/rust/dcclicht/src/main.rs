@@ -15,11 +15,13 @@ use crate::pwm::pwm_task;
 use defmt::*;
 use embassy_stm32::{bind_interrupts, peripherals};
 use embassy_executor::Spawner;
+use embassy_stm32::Config;
 use embassy_stm32::exti::ExtiInput;
 use embassy_stm32::gpio::{OutputType, Pull};
-use embassy_stm32::time::khz;
+use embassy_stm32::rcc::{AHBPrescaler, APBPrescaler, Hse, HseMode, Pll, PllPreDiv, PllSource, Sysclk};
+use embassy_stm32::time::{Hertz, khz};
 use embassy_stm32::timer::simple_pwm::{PwmPin, SimplePwm};
-use embassy_stm32::usart::{BufferedInterruptHandler, BufferedUart, Config};
+use embassy_stm32::usart::{BufferedInterruptHandler, BufferedUart, Config as UsartConfig};
 use embedded_io_async::BufRead;
 use {defmt_rtt as _, panic_probe as _};
 
@@ -29,7 +31,25 @@ bind_interrupts!(struct Irqs {
 
 #[embassy_executor::main]
 async fn main(_spawner: Spawner) {
-    let p = embassy_stm32::init(Default::default());
+    let mut config = Config::default();
+    {
+        config.rcc.hse = Some(Hse {
+            freq: Hertz(8_000_000),
+            mode: HseMode::Oscillator,
+        });
+        config.rcc.pll = Some(
+            Pll {
+                src: PllSource::HSE,
+                prediv: PllPreDiv::DIV1,
+                mul: embassy_stm32::rcc::PllMul::MUL9
+            }
+        );
+        config.rcc.ahb_pre = AHBPrescaler::DIV1;
+        config.rcc.apb1_pre = APBPrescaler::DIV2;
+        config.rcc.apb2_pre = APBPrescaler::DIV1;
+        config.rcc.sys = Sysclk::PLL1_P;
+    }
+    let p = embassy_stm32::init(config);
     let button = ExtiInput::new(p.PC13, p.EXTI13, Pull::Up);
 
     let ch1_1_pin = PwmPin::new_ch1(p.PA6, OutputType::PushPull);
@@ -45,7 +65,7 @@ async fn main(_spawner: Spawner) {
 
     let mut tx_buf = [0u8; 32];
     let mut rx_buf = [0u8; 32];
-    let buf_usart = BufferedUart::new(p.USART1, Irqs, p.PA10, p.PA9, &mut tx_buf, &mut rx_buf, Config::default()).unwrap();
+    let buf_usart = BufferedUart::new(p.USART1, Irqs, p.PA10, p.PA9, &mut tx_buf, &mut rx_buf, UsartConfig::default()).unwrap();
     let (mut buf_tx, mut buf_rx) = buf_usart.split();
 
     let mut act = 0;
